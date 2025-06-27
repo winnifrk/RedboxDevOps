@@ -1,0 +1,13 @@
+{
+  "name": "devops/test-project",
+  "description": "Базовый проект для тестирования подключения",
+  "require": {
+    "ext-pdo": "*",
+    "ext-redis": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
